@@ -1,0 +1,27 @@
+#Conteneur
+ {
+     height: 300px;
+     display: flex;
+     flex-flow: row  wrap;
+     align-content: flex-start;
+ }
+
+#box1{ height: 10%; width: 80%; background-color: green; }
+#box2{ height: 10%; width: 20%; background-color: grey; }
+#box3{ height: 40%; width: 40%; background-color: red; }
+
+#conteneur_droit
+{
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box4{ height: 50%; width: 50%; background-color: orange; }
+#box5{ height: 50%; width: 50%; background-color: blue; }
+#box6{ height: 50%; width: 33%; background-color: yellow; }
+#box7{ height: 50%; width: 33%; background-color: purple; }
+#box8{ height: 50%; width: 34%; background-color: pink; }
+
+#box9{ height: 50%; width: 100%; background-color: magenta; }
